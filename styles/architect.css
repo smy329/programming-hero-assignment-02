@@ -18,8 +18,8 @@
 /* header start */
 .header-container{
     background-color: #FF900E1A;
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-bottom: 85px;
 }
 
@@ -101,8 +101,8 @@ nav li{
 
 /* main section common styles */
 main{
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 /* explore more features styles  */
@@ -227,8 +227,11 @@ main{
 .features-img img{
     position: relative;
     top: -40px;
-    right: -80px;
+    right: -50px;
     z-index: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
     
 }
 
@@ -409,7 +412,7 @@ our sponsors styles here
 footer{
     position: relative;
     bottom: 0;
-    margin: auto 240px;
+    margin: auto 100px;
     padding: 40px;
     background: #FFF4E7;
     border-radius: 8px;
